@@ -1,0 +1,54 @@
+{
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          id: "way/1",
+          properties: {
+            type: "way",
+            id: 1,
+            tags: {"foo":"bar"},
+            relations: [],
+            meta: {}
+          },
+          geometry: {
+            type: "LineString",
+            coordinates: [
+              [1.0,0.0],
+              [1.1,0.0],
+              [1.2,0.1],
+            ]
+          }
+        },
+        {
+          type: "Feature",
+          id: "node/3",
+          properties: {
+            type: "node",
+            id: 3,
+            tags: {"asd":"fasd"},
+            relations: [],
+            meta: {}
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [1.1,0.0]
+          }
+        },
+        {
+          type: "Feature",
+          id: "node/5",
+          properties: {
+            type: "node",
+            id: 5,
+            tags: {},
+            relations: [],
+            meta: {}
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [0.0,0.0]
+          }
+        }
+      ]
+    }

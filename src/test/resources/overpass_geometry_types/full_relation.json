@@ -1,0 +1,49 @@
+{
+  elements: [
+    {
+      type: "relation",
+      id:   1,
+      tags: {
+        "type": "boundary"
+      },
+      bounds: {
+        minlat: 0,
+        minlon: 0,
+        maxlat: 1,
+        maxlon: 1
+      },
+      members: [
+        {
+          type: "way",
+          ref: 1,
+          role: "outer",
+          geometry: [
+            { lat: 0, lon: 0 },
+            { lat: 0, lon: 1 },
+            { lat: 1, lon: 1 },
+            { lat: 1, lon: 0 },
+            { lat: 0, lon: 0 }
+          ]
+        },
+        {
+          type: "way",
+          ref: 2,
+          role: "outer",
+          geometry: [
+            { lat: 1.1, lon: 1.1 },
+            { lat: 1.1, lon: 1.2 },
+            { lat: 1.2, lon: 1.2 },
+            { lat: 1.1, lon: 1.1 }
+          ]
+        },
+        {
+          type: "node",
+          ref: 1,
+          role: "admin_centre",
+          lat: 0.5,
+          lon: 0.5
+        }
+      ]
+    }
+  ]
+}

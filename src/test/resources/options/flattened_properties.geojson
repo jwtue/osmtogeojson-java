@@ -1,0 +1,5 @@
+{
+      id: "node/1",
+      foo: "bar",
+      user: "johndoe"
+    }

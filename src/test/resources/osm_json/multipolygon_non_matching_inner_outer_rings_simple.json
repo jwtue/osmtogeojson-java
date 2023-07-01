@@ -1,0 +1,73 @@
+{
+  elements: [
+    {
+      type: "relation",
+      tags: {"type": "multipolygon"},
+      id:   1,
+      members: [
+        {
+          type: "way",
+          ref:  2,
+          role: "outer"
+        },
+        {
+          type: "way",
+          ref:  3,
+          role: "inner"
+        }
+      ]
+    },
+    {
+      type: "way",
+      id:   2,
+      nodes: [4,5,6,7,4]
+    },
+    {
+      type: "node",
+      id:   4,
+      lat:  0.0,
+      lon:  0.0
+    },
+    {
+      type: "node",
+      id:   5,
+      lat:  1.0,
+      lon:  0.0
+    },
+    {
+      type: "node",
+      id:   6,
+      lat:  1.0,
+      lon:  1.0
+    },
+    {
+      type: "node",
+      id:   7,
+      lat:  0.0,
+      lon:  1.0
+    },
+    {
+      type: "way",
+      id:   3,
+      nodes: [8,9,10,8]
+    },
+    {
+      type: "node",
+      id:   8,
+      lat:  3.0,
+      lon:  3.0
+    },
+    {
+      type: "node",
+      id:   9,
+      lat:  4.0,
+      lon:  3.0
+    },
+    {
+      type: "node",
+      id:   10,
+      lat:  3.0,
+      lon:  4.0
+    }
+  ]
+}

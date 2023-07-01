@@ -1,0 +1,15 @@
+{
+      type: "Feature",
+      id: "node/1",
+      properties: {
+        type: "node",
+        id: 1,
+        tags: {},
+        relations: [],
+        meta: {}
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [3.0,2.0]
+      }
+    }

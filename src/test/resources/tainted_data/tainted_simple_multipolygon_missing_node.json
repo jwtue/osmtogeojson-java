@@ -1,0 +1,39 @@
+{
+  elements: [
+    {
+      type: "relation",
+      tags: {"type": "multipolygon"},
+      id:   1,
+      members: [
+        {
+          type: "way",
+          ref:  2,
+          role: "outer"
+        }
+      ]
+    },
+    {
+      type: "way",
+      id:   2,
+      nodes: [3,4,5,6,3]
+    },
+    {
+      type: "node",
+      id:   3,
+      lat:  0.0,
+      lon:  0.0
+    },
+    {
+      type: "node",
+      id:   4,
+      lat:  0.0,
+      lon:  1.0
+    },
+    {
+      type: "node",
+      id:   5,
+      lat:  1.0,
+      lon:  0.0
+    }
+  ]
+}

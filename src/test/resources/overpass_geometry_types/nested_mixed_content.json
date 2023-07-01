@@ -1,0 +1,52 @@
+{
+  elements: [
+    {
+      type: "way",
+      id:   2,
+      tags: {
+        "building": "yes"
+      },
+      nodes: [
+        1,
+        2,
+        3
+      ],
+      geometry: [
+        { lat: 2, lon: 2 },
+        { lat: 1, lon: 0 },
+        { lat: 0, lon: 0 }
+      ]
+    },
+    {
+      type: "relation",
+      id:   1,
+      tags: {
+        "type": "multipolygon",
+        "building": "yes"
+      },
+      members: [
+        {
+          type: "way",
+          ref: 1,
+          role: "outer",
+          geometry: [
+            { lat: 0, lon: 0 },
+            { lat: 0, lon: 1 },
+            { lat: 1, lon: 1 },
+            { lat: 2, lon: 2 }
+          ]
+        },
+        {
+          type: "way",
+          ref: 2,
+          role: "outer",
+          geometry: [
+            { lat: 2, lon: 2 },
+            { lat: 1, lon: 0 },
+            { lat: 0, lon: 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

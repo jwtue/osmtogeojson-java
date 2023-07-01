@@ -1,0 +1,8 @@
+<osm><way id='1'>
+     <nd ref='1' lat='0' lon='0' />
+     <nd ref='2' lat='1' lon='1' />
+     <nd ref='3' lat='2' lon='2' />
+     </way>
+     <node id='2' lat='1' lon='1'>
+         <tag k='foo' v='bar' />
+         </node></osm>
