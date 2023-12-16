@@ -1,9 +1,0 @@
-{
-  elements: [
-    {
-      type: "relation",
-      id:   1,
-      tags: {"type":"multipolygon"}
-    }
-  ]
-}

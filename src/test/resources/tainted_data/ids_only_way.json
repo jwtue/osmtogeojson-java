@@ -1,8 +1,0 @@
-{
-  elements: [
-    {
-      type: "way",
-      id:   1
-    }
-  ]
-}

@@ -1,0 +1,15 @@
+{
+  elements: [
+    {
+      type: "node",
+      id:   1,
+      lat:  1.234,
+      lon:  4.321,
+      timestamp: "2013-01-13T22:56:07Z",
+      version:   7,
+      changeset: 1234,
+      user:      "johndoe",
+      uid:       666
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<osm><relation id='1'>
+     <bounds minlat='0' minlon='0' maxlat='1' maxlon='1'/>
+     <member type='way' ref='1' role='outer'>
+           <nd lat='0' lon='0' />
+           <nd lat='0' lon='1' />
+           <nd lat='1' lon='1' />
+           <nd lat='1' lon='0' />
+           <nd lat='0' lon='0' />
+         </member>
+     <member type='way' ref='2' role='outer'>
+           <nd lat='1.1' lon='1.1' />
+           <nd lat='1.1' lon='1.2' />
+           <nd lat='1.2' lon='1.2' />
+           <nd lat='1.1' lon='1.1' />
+         </member>
+     <member type='node' ref='1' role='admin_centre' lat='0.5' lon='0.5'/>
+     <tag k='type' v='boundary' />
+     </relation></osm>

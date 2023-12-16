@@ -1,0 +1,72 @@
+{
+  elements: [
+    {
+      type:  "way",
+      id:    1,
+      tags:  {"foo":"bar"},
+      nodes: [1,2,3]
+    },
+    {
+      type:  "way",
+      id:    2,
+      nodes: [3,1]
+    },
+    {
+      type: "node",
+      id:   1,
+      lat:  1.0,
+      lon:  1.0
+    },
+    {
+      type: "node",
+      id:   2,
+      lat:  2.0,
+      lon:  2.0
+    },
+    {
+      type: "node",
+      id:   3,
+      lat:  1.0,
+      lon:  2.0
+    },
+    {
+      type:    "relation",
+      id:      1,
+      tags:    {"foo":"bar"},
+      members: [
+        {
+          type: "way",
+          ref:  1,
+          role: "asd"
+        },
+        {
+          type: "node",
+          ref:  1,
+          role: "fasd"
+        },
+        {
+          type: "relation",
+          ref:  2,
+          role: ""
+        }
+      ]
+    },
+    {
+      type:    "relation",
+      id:      2,
+      tags:    {"type":"multipolygon"},
+      members: [
+        {
+          type: "way",
+          ref:  1,
+          role: "outer"
+        },
+        {
+          type: "way",
+          ref:  2,
+          role: "outer"
+        }
+      ]
+    }
+  ]
+}

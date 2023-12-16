@@ -1,6 +1,0 @@
-<osm><way id='1'>
-     <nd ref='1' />
-     <nd ref='2' lat='1' lon='1' />
-     <nd ref='3' lat='2' lon='2' />
-     <nd ref='4' />
-     </way></osm>

@@ -1,0 +1,10 @@
+{
+  elements: [
+    {
+      type: "node",
+      id:   1,
+      lat:  2.0,
+      lon:  3.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  elements: [
+    {
+      type:    "relation",
+      id:      1,
+      tags:    {"type":"multipolygon"},
+      members: [
+        {
+          type: "way",
+          ref:  2,
+          role: "outer"
+        },
+        {
+          type: "way",
+          ref:  3,
+          role: "inner"
+        }
+      ]
+    }
+  ]
+}

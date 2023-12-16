@@ -1,0 +1,8 @@
+{
+  elements: [
+    {
+      type: "node",
+      id:   1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  elements: [
+    {
+      type: "way",
+      id:   1,
+      nodes: [1,2]
+    },
+    {
+      type: "node",
+      id:   1,
+      tags: {"tag": "1"},
+      lat:  1.0,
+      lon:  0.0
+    },
+    {
+      type: "node",
+      id:   2,
+      tags: {"tag": "2"},
+      lat:  2.0,
+      lon:  0.0
+    }
+  ]
+}

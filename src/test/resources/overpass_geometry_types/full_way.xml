@@ -1,8 +1,0 @@
-<osm><way id='1'>
-     <bounds minlat='0' minlon='0' maxlat='1' maxlon='1'/>
-     <nd ref='1' lat='0' lon='0' />
-     <nd ref='2' lat='0' lon='1' />
-     <nd ref='3' lat='1' lon='1' />
-     <nd ref='1' lat='0' lon='0' />
-     <tag k='area' v='yes' />
-     </way></osm>

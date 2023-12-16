@@ -1,0 +1,40 @@
+{
+  elements: [
+    {
+      type: "node",
+      id:   1,
+      lat:  1.234,
+      lon:  4.321,
+      tags: {"amenity": "yes"},
+      user: "johndoe"
+    },
+    {
+      type: "way",
+      id:   1,
+      tags: {"highway": "road"},
+      user: "johndoe",
+      nodes: [1,1,1,1]
+    },
+    {
+      type: "relation",
+      id:   1,
+      tags: {"type": "multipolygon"},
+      user: "johndoe",
+      members: [{type:"way",ref:1,role:"outer"},{type:"way",ref:1,role:"outer"}]
+    },
+    {
+      type: "way",
+      id:   2,
+      tags: {"highway": "road"},
+      user: "johndoe",
+      nodes: [1,1,1,1]
+    },
+    {
+      type: "relation",
+      id:   2,
+      tags: {"type": "multipolygon"},
+      user: "johndoe",
+      members: [{type:"way",ref:2,role:"outer"}]
+    }
+  ]
+}

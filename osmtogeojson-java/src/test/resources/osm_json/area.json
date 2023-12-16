@@ -1,0 +1,8 @@
+{
+  elements: [
+    {
+      type: "area",
+      id:   1,
+    }
+  ]
+}

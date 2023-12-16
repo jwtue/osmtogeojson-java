@@ -1,8 +1,0 @@
-{
-  elements: [
-    {
-      type: "relation",
-      id:   1
-    }
-  ]
-}

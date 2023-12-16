@@ -1,0 +1,12 @@
+{
+  elements: [
+    {
+      type: "relation",
+      id:   1,
+      center: {
+        lat:  1.234,
+        lon:  4.321
+      }
+    }
+  ]
+}
