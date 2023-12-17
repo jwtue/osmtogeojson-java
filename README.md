@@ -25,7 +25,8 @@ Supported command line options are shown with:
 ```
 ### java/android library
 
-Usage: For plain Java projects add the .jar file to your project as a library. For Android projects, use the .aar file instead.
+Usage:
+For plain Java projects add the .jar file to your project as a library. For Android projects, use the .aar file instead.
 ```java
 import de.jonaswolf.osmtogeojson.OsmToGeoJson
 
@@ -63,4 +64,4 @@ Creates a new OSM data to GeoJSON converter. You can use some optional arguments
 
 More information
 ---
-For more information on the produced GeoJSON and the way this library works, check out the documentation at [https://github.com/tyrasd/osmtogeojson].
+For more information on the produced GeoJSON and the way this library works, check out the documentation at [tyrasd/osmtogeojson](https://github.com/tyrasd/osmtogeojson).
